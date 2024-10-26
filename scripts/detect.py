@@ -4,7 +4,7 @@ from pathlib import Path
 import torch
 
 # Load YOLOv7 model
-model = torch.hub.load('WongKinYiu/yolov7', 'yolov7')
+model = torch.hub.load('WongKinYiu/yolov7', 'yolov7', force_reload=True)
 
 # Directory with images
 image_folder = Path(r"C:\Users\fazba\Downloads\Preannotated Images_v2")
