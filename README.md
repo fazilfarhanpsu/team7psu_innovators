@@ -15,7 +15,7 @@ pip install streamlit
 ```
 
 ### Application Overview
-This application is built in Python using Streamlit and leverages YOLO models from the Ultralytics Python package.
+This application is built in Python using Streamlit and leverages YOLO models from the Ultralytics Python package. The model weights are automatically downloaded from ultralytics package. 
 
 ### Running the Application
 1. **Clone this repository** and navigate to the `sightAI` folder.
